@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping mart</title>
+  <link rel="stylesheet" href="Shopping mart.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <a href="#" class="logo"><i class='bx bxs-t-shirt'></i>adidas</a>
+
+    <ul class="navbar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#new">New Arrival</a></li>
+    <li><a href="#Products">Products</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    </ul>
+
+    <!-- Icons -->
+    <div class="header-icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-search' id="search-icon"></i>
+      <i class='bx bx-cart-alt' id="cart-icon"></i>
+      <i class='bx bx-user' id="user-icon"></i>
+    </div>
+
+    <!-- search Box-->
+    <div class="search-box">
+      <input type="search" name="" id="" placeholder="Search Here...">
+    </div>
+
+    <!-- Cart box-->
+    <div class="cart">
+      <!-- Box 1-->
+      <div class="box">
+        <img src="adidas1.jpg" alt="">
+        <div class="text">
+          <h3>T-Shirt 14A</h3>
+          <span>$50.05</span>
+          <span>x1</span>
+        </div>
+        <i class='bx bxs-trash-alt'></i>
+      </div>
+
+      <!-- Box 2-->
+      <div class="box">
+        <img src="adidas2.jpg" alt="">
+        <div class="text">
+          <h3>T-Shirt 14A</h3>
+          <span>$50.05</span>
+          <span>x1</span>
+        </div>
+        <i class='bx bxs-trash-alt'></i>
+      </div>
+
+      <h2>Total: $100.10</h2>
+      <a href="#" class="btn">Checkout</a>
+
+
+    </div>
+
+    <!-- User -->
+    <div class="user">
+      <h2>Login Now</h2>
+      <input type="email" placeholder="Your Email....">
+      <input type="password" name="" id="" placeholder="password">
+      <input type="submit" value="Login" class="login-btn">
+      <p>Forget password <a href="#">Reset Now</a></p>
+      <p>Don't have account <a href="#">Create One</a></p>
+    </div>
+  </header>
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <span>Shop Now</span>
+      <h1>New Arrival of <br>Fresh Products</h1>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="home-img">
+      <img src="woman.jpg" alt="A woman shopping for clothes">
+    </div>
+  </section>
+  <!-- New Arrival-->
+  <section class="new" id="new">
+    <div class="heading">
+      <h1>New <span> Arrival</span></h1>
+    </div>
+    <div class="swiper new-arrival">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="adidas11.jpg" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="adidas12.webp" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="adidas15.webp" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="adidas16.webp" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="adidas17.jpeg" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide box">
+          <img src="adidas10.webp" alt="">
+          <div class="content">
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Product-->
+  <section class="Products" id="Products">
+    <div class="heading">
+      <h1>Our<span> Products</span></h1>
+    </div>
+    <div class="product-container">
+      <div class="box">
+        <img src="adidas5.webp" alt="">
+        <div class="content">
+          <h2>Adidas Sweater Velor</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$50.05</span>
+          <i class='bx bx-cart-alt' ></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="adidas1.jpg" alt="">
+        <div class="content">
+          <h2>Candice Adidas Sweater</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+          <span>$40.05</span>
+          <i class='bx bx-cart-alt' ></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="adidas3.webp" alt="">
+  <div class="content">
+    <h2>Pheonix Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half'></i>
+      <i class='bx bxs-star-half'></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$43.50</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas7.webp" alt="">
+  <div class="content">
+    <h2>Belair Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+    </div>
+    <span>$51.15</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas.jpg" alt="">
+  <div class="content">
+    <h2>Avalar Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star'></i>
+    </div>
+    <span>$33.05</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas21.webp" alt="">
+  <div class="content">
+    <h2>Smart Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$38.67</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas22.webp" alt="">
+  <div class="content">
+    <h2>Marvel Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$44.56</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas23.webp" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$42.88</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$40.88</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike60.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$50.88</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike6.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$29.99</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike9.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$45.00</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike12.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$33.38</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike13.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$51.23</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike21.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$42.01</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike8.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$35.67</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike10.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$53.88</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike11.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$48.22</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike4.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$40.18</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike7.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$44.00</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike1.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$33.33</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike33.png" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$41.22</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike2.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$43.23</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike3.jpeg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$42.45</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="nike5.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$46.77</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas23.webp" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$45.88</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas23.webp" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$55.32</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+      <div class="box">
+        <img src="adidas24.jpg" alt="">
+  <div class="content">
+    <h2>Casse Adidas Sweater</h2>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <span>$38.89</span>
+    <i class='bx bx-cart-alt' ></i>
+  </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- Review-->
+  <section class="reviews" id="reviews">
+    <div class="heading">
+      <h1>Our <span> Customer's</span></h1>
+    </div>
+    <div class="reviews-container">
+      <div class="box">
+        <img src="happy1.jpg" alt="">
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+          <p>I recently had the pleasure of experiencing the impeccable quality and exceptional style offered by Adidas, a clothing brand that has undoubtedly set a new standard in the world of fashion. From the moment I delved into their collection, I was captivated by the attention to detail, comfort, and overall aesthetic appeal.</p>
+           <h2> Will smith</h2>
+        </div>
+        <div class="box">
+          <img src="happy2.jpg" alt="" >
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half' ></i>
+            </div>
+            <p>One of the standout features of Adidas is the unparalleled quality of their fabrics. The garments not only look luxurious but also feel incredibly soft against the skin. It's evident that the brand places a strong emphasis on sourcing materials of the highest standard, resulting in clothing that not only stands the test of time but also offers an unparalleled level of comfort.</p>
+             <h2> Barbs</h2>
+          </div>
+          <div class="box">
+            <img src="happy3.jpg" alt="">
+              <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+              </div>
+              <p>The design philosophy at Adidas is truly commendable. Each piece in their collection seamlessly blends classic elegance with contemporary flair, creating a versatile range that caters to various tastes and occasions. Whether it's the precision in stitching, the thoughtfulness in color selection, or the innovative use of patterns, every detail is a testament to the brand's commitment to excellence.</p>
+               <h2> Taylor</h2>
+            </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section class="footer">
+    <div class="footer-box">
+      <h2>adidas</h2>
+      <p>Founded in 1949 by Adolf "Adi" Dassler, adidas has always aimed to improve athletes' performance. Adi, a passionate shoemaker and athlete, personally tested his creations. His most famous innovation, the screw stud shoe for football, gained prominence during the 1954 World Cup Finals, known as the "Miracle of Bern." When it rained during the match, Dassler, serving as Germany's kit manager, switched the players' shoes to rain studs at halftime, giving Germany a technical advantage that led to their victory over the favored Hungarian team.</p>
+
+      <div class="social">
+        <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxl-tiktok' ></i></a>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h3>Support</h3>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Help & Support</a></li>
+      <li><a href="#">Return Policy</a></li>
+      <li><a href="#">Terms Of Use</a></li>
+      <li><a href="#">FAQ</a></li>
+    </div>
+    <div class="footer-box">
+      <h3>Our branches</h3>
+      <li><a href="#">Pakistan</a></li>
+      <li><a href="#">Dubai</a></li>
+      <li><a href="#">Abuja</a></li>
+      <li><a href="#">United Kingdom</a></li>
+      <li><a href="#">South Korea</a></li>
+    </div>
+    <div class="footer-box">
+      <h3>Payment Method</h3>
+      <div class="payment">
+        <img src="visa.png" alt="">
+        <img src="mastercard.png" alt="">
+        <img src="paypal.webp" alt="">
+        <img src="american express.webp" alt="">
+      </div>
+    </div>
+  </section>
+    <!--copyright -->
+    <div class="copyright">
+      <p>&#169; Babztech All Rights Reserved </p>
+    </div>
+
+
+  <!-- Swiper js-->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- link to js -->
+  <script src="Shopping mart.js"></script>
+
+</body>
+
+</html>
